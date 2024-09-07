@@ -27,7 +27,7 @@ set the user ID afterwards.
 Example
 -------
 
-	local setuid = require( "setuid" )
+	local setuid = require( "Lua_setuid" )
 
 	-- in a real program you can only do one of these
 	assert( setuid.chroot( "src", "notroot" ) )
